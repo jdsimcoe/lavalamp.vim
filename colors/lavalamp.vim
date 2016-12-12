@@ -1,3 +1,7 @@
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 if exists("syntax_on")
   syntax reset
 endif
